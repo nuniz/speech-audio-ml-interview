@@ -23,4 +23,18 @@ Speech & Audio Algorithms and Machine Learning Interview Questions
 * How do you analyze the frequency response of a microphone or audio system using electronic measurements?
 
 
-
+## Signal Processing
+* Explain the concept of time-domain and frequency-domain analysis in acoustic signal processing and discuss their respective advantages and limitations.
+* Provide examples of common window functions used in signal processing, such as Hann and Chebyshev.
+* Discuss the applications of LPF, BPF, HPF in practical scenarios.
+* What are the key differences between Finite Impulse Response (FIR) and Infinite Impulse Response (IIR) filters?
+* How can zero-phase filtering be implemented, and what advantages does it offer in signal processing tasks?
+* Explain the usage and significance of the filtfilt function.
+* Explain the Short-Time Fourier Transform (STFT) and its implementation using methods like unfold and FFT or precomputed FFT kernels and convolution.
+* Discuss the significance of overlap and its applications.
+* Why is zero padding used in STFT, and how does it impact the analysis of signals?
+* What trade-offs should be considered when determining the parameters such as time window, stride, and NFFT in STFT analysis?
+* For what purpose are Mel-frequency cepstral coefficients (MFCC) typically employed in acoustic signal processing?
+* Describe the principles underlying beamforming techniques in acoustic signal processing, including delay and sum, MVDR, and LCMV approaches.
+* Discuss the principles of adaptive filtering in signal processing and its applications in tasks such as noise cancellation and system identification.
+* Describe the process of signal denoising and common techniques used, such as wavelet denoising, Wiener filtering, or median filtering.
