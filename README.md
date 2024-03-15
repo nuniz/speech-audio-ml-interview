@@ -20,7 +20,8 @@ aspects of the field.
 4. [Deep Learning](#deep_learning)
     1. [Sound Classification](#classification)
     2. [Speech Enhancement](#enhancement)
-    3. [Speech Recognition](#recognition)
+    3. [Speaker Recognition](#speaker)
+    4. [Speech Recognition](#recognition)
 
 Feel free to dive into any section that interests you or aligns with your study focus.
 
@@ -136,6 +137,13 @@ Feel free to dive into any section that interests you or aligns with your study 
   and SNR?
 * What are the loss functions typically used for speech enhancement? What are the cons of using Mean Squared Error (
   MSE)?
+
+## Speaker Recognition <a name="speaker"></a>
+* What are speaker embeddings, and how do they represent the characteristics of a speaker's voice?
+* How are i-vectors extracted from speech signals, and what features do they capture?
+* What role does the Universal Background Model (UBM) play in generating i-vectors?
+* What are x-vectors, and how do they differ from i-vectors in speaker recognition systems?
+* Outline the architecture of the neural network used to extract x-vectors from speech signals.
 
 ## Speech Recognition <a name="recognition"></a>
 
