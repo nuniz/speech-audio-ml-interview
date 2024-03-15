@@ -13,6 +13,7 @@ aspects of the field.
 4. [Signal Processing](#signal_processing)
     - [Digital Filtering](#digital_filter)
     - [Feature Extraction](#features)
+    - [Localization](#localization)
     - [Audio Transforms](#audio_transforms)
     - [Compression](#compression)
     - [Noise Reduction](#noise_reduction)
@@ -78,6 +79,9 @@ Feel free to dive into any section that interests you or aligns with your study 
 * Could you explain the concept of zero-crossing rate in speech signals and how it is calculated?
 * What methods are commonly used to estimate the fundamental frequency (pitch) of a speech signal?
 * What is linear predictive coding (LPC), and how does it represent speech signals?
+
+## Localization <a name="localization"></a>
+
 * How does the GCC PHAT algorithm differ from other cross-correlation techniques, and what specific challenges does it address in tasks like sound source localization?
 * Explain the computational complexity of GCC PHAT-based sound source localization algorithms and any strategies used to mitigate it in real-time systems?
 
