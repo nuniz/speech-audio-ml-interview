@@ -60,6 +60,17 @@ Feel free to dive into any section that interests you or aligns with your study 
 * What trade-offs should be considered when determining the parameters such as time window, stride, and NFFT in STFT analysis?
 * For what purpose are Mel-frequency cepstral coefficients (MFCC) typically employed in acoustic signal processing?
 
+## Compression
+* What are the typical sampling rates used in digital audio, and what frequency ranges do they cover?
+* What is the range of bits per sample commonly used for digital audio representation?
+* How does the number of quantizer levels affect the signal-to-noise ratio (SNR) or dynamic range of quantized audio amplitudes?
+* Why might audio compression algorithms designed specifically for speech signals not work well for nonspeech audio signals?
+* How does the mu-law transformation differ from linear quantization in representing audio samples, and what advantages does it offer?
+* Describe the operation of an adaptive differential pulse code modulation (AD-PCM) coder.
+* How does the AD-PCM exploits the similarities between neighboring audio samples?
+* How does AMR achieve adaptive bit-rate encoding, and what are the advantages of this approach?
+* Describe the predictor used in the IMA ADPCM algorithm and its impact on real-time processing.
+
 
 ## Noise Reduction <a name="noise_reduction"></a>
 * Discuss the principles of adaptive filtering in signal processing and its applications in tasks such as noise cancellation and system identification.
