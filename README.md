@@ -11,6 +11,7 @@ This guide aims to assist you in preparing for interviews by providing a compreh
 3. [Signal Processing](#signal_processing)
    1. [Digital Filtering](#digital_filter)
    2. [Audio Transforms](#audio_transforms)
+   3. [Compression](#compression)
    3. [Noise Reduction](#noise_reduction)
 
 Feel free to dive into any section that interests you or aligns with your study focus.
@@ -60,7 +61,7 @@ Feel free to dive into any section that interests you or aligns with your study 
 * What trade-offs should be considered when determining the parameters such as time window, stride, and NFFT in STFT analysis?
 * For what purpose are Mel-frequency cepstral coefficients (MFCC) typically employed in acoustic signal processing?
 
-## Compression
+## Compression <a name="compression"></a>
 * What are the typical sampling rates used in digital audio, and what frequency ranges do they cover?
 * What is the range of bits per sample commonly used for digital audio representation?
 * How does the number of quantizer levels affect the signal-to-noise ratio (SNR) or dynamic range of quantized audio amplitudes?
