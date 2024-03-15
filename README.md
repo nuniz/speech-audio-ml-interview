@@ -72,7 +72,7 @@ Feel free to dive into any section that interests you or aligns with your study 
 * How can zero-phase filtering be implemented, and what advantages does it offer in signal processing tasks?
 * What are the various methods for testing the stability of digital filters?
 
-## Feature Extraction <a name="feature"></a>
+## Feature Extraction <a name="features"></a>
 
 * What is energy in the context of speech signals, and how is it computed?
 * Could you explain the concept of zero-crossing rate in speech signals and how it is calculated?
@@ -134,8 +134,8 @@ Feel free to dive into any section that interests you or aligns with your study 
   the input is STFT or waveform?
 * What are the objective metrics for speech enhancement evaluation? Could you discuss the difference between PESQ, STOI,
   and SNR?
-* What are the loss functions typically used for speech enhancement? What are the cons of using Mean Squared Error (
-  MSE)?
+* What are the loss functions typically used for speech enhancement? What are the cons of using Mean Squared Error 
+  (MSE)?
 
 ## Speaker Recognition <a name="speaker"></a>
 
