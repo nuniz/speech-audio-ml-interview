@@ -139,6 +139,9 @@ Feel free to dive into any section that interests you or aligns with your study 
   MSE)?
 
 ## Speaker Recognition <a name="speaker"></a>
+
+* Can you explain the distinctions between speaker diarization, speaker identification, and speaker verification?
+* What are the common deep network architectures used for speaker recognition tasks?
 * What are speaker embeddings, and how do they represent the characteristics of a speaker's voice?
 * How are i-vectors extracted from speech signals, and what features do they capture?
 * What role does the Universal Background Model (UBM) play in generating i-vectors?
