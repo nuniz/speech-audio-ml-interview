@@ -1,6 +1,5 @@
 # Speech & Audio Algorithms and Machine Learning
 
-Welcome to the collection of interview questions on Speech & Audio Algorithms and Machine Learning!
 This guide aims to assist you in preparing for interviews by providing a comprehensive set of questions covering various
 aspects of the field.
 
