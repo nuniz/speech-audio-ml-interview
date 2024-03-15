@@ -100,9 +100,9 @@ Feel free to dive into any section that interests you or aligns with your study 
 * How does the mu-law transformation differ from linear quantization in representing audio samples, and what advantages
   does it offer?
 * Describe the operation of an adaptive differential pulse code modulation (AD-PCM) coder.
+* Describe the predictor used in the AD-PCM algorithm and its impact on real-time processing.
 * How does the AD-PCM exploits the similarities between neighboring audio samples?
 * How does AMR achieve adaptive bit-rate encoding, and what are the advantages of this approach?
-* Describe the predictor used in the IMA ADPCM algorithm and its impact on real-time processing.
 
 ## Noise Reduction <a name="noise_reduction"></a>
 
