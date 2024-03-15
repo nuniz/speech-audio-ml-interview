@@ -6,21 +6,21 @@ aspects of the field.
 # Table of contents
 
 1. [Acoustics](#acoustics)
-    1. [Sound](#sound)
-    2. [Reverberation](#reverb)
-    3. [Filter Design](#filter)
+    1.1. [Sound](#sound)
+    1.2. [Reverberation](#reverb)
+    1.3. [Filter Design](#filter)
 2. [Electronics](#electronics)
 3. [Signal Processing](#signal_processing)
-    1. [Digital Filtering](#digital_filter)
-    2. [Feature Extraction](#features)
-    3. [Audio Transforms](#audio_transforms)
-    4. [Compression](#compression)
-    5. [Noise Reduction](#noise_reduction)
+    3.1. [Digital Filtering](#digital_filter)
+    3.2. [Feature Extraction](#features)
+    3.3. [Audio Transforms](#audio_transforms)
+    3.4. [Compression](#compression)
+    3.5. [Noise Reduction](#noise_reduction)
 4. [Deep Learning](#deep_learning)
-    1. [Sound Classification](#classification)
-    2. [Speech Enhancement](#enhancement)
-    3. [Speaker Recognition](#speaker)
-    4. [Speech Recognition](#recognition)
+    4.1. [Sound Classification](#classification)
+    4.2. [Speech Enhancement](#enhancement)
+    4.3. [Speaker Recognition](#speaker)
+    4.4. [Speech Recognition](#recognition)
 
 Feel free to dive into any section that interests you or aligns with your study focus.
 
