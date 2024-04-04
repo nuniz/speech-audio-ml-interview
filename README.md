@@ -1,59 +1,45 @@
 # Speech & Audio Algorithms and Machine Learning
 
-This guide aims to assist you in preparing for interviews by providing a comprehensive set of questions covering various
-aspects of the field.
+Feel free to dive into any section that interests you or aligns with your focus.
 
 # Table of contents
 
-1. [Acoustics](#acoustics)
-    - [Sound](#sound)
-    - [Reverberation](#reverb)
-    - [Filter Design](#filter)
-3. [Electronics](#electronics)
-4. [Signal Processing](#signal_processing)
-    - [Digital Filtering](#digital_filter)
-    - [Feature Extraction](#features)
-    - [Localization](#localization)
-    - [Audio Transforms](#audio_transforms)
-    - [Compression](#compression)
-    - [Noise Reduction](#noise_reduction)
-5. [Deep Learning](#deep_learning)
-    - [Sound Classification](#classification)
-    - [Speech Enhancement](#enhancement)
-    - [Speaker Recognition](#speaker)
-    - [Speech Recognition](#recognition)
-
-Feel free to dive into any section that interests you or aligns with your study focus.
+- [Speech \& Audio Algorithms and Machine Learning](#speech--audio-algorithms-and-machine-learning)
+- [Table of contents](#table-of-contents)
+- [Acoustics ](#acoustics-)
+  - [Sound ](#sound-)
+- [Electronics ](#electronics-)
+- [Signal Processing ](#signal-processing-)
+  - [Digital Filtering ](#digital-filtering-)
+  - [Audio Features ](#audio-features-)
+  - [Audio Transforms ](#audio-transforms-)
+  - [Compression ](#compression-)
+  - [Noise Reduction ](#noise-reduction-)
+- [Deep Learning ](#deep-learning-)
+  - [Sound Classification ](#sound-classification-)
+  - [Speech Enhancement ](#speech-enhancement-)
+  - [Speaker Recognition ](#speaker-recognition-)
+  - [Speech Recognition ](#speech-recognition-)
 
 # Acoustics <a name="acoustics"></a>
 
 ## Sound <a name="sound"></a>
 
-* Explain the concept of sound intensity and how it is measured.
-* How do you convert sound pressure from dB SPL to pascals (Pa)?
+* What is sound intensity, and how do acoustic instruments measure it?
+* How do you convert sound pressure between dB SPL and pascals (Pa)?
 * Discuss the difference between dB SPL and dB(A) scales. 
-* How does the density and elasticity of a medium influence the speed of sound?
-
-## Reverberation <a name="reverb"></a>
-
-* Discuss the concept of reverberation and its implications in room acoustics. 
+* How do the density and elasticity of a medium affect the speed of sound?
+* Discuss the concept of reverberation and its implications in room acoustics.
 * What methods are used to measure reverberation (RT60)?
-
-## Filter Design <a name="filter"></a>
-
-* Define acoustic impedance.
-* Describe the operation of an acoustic resonator and its applications in filtering or amplifying specific frequency components of a sound signal.
-* What are the main types of acoustic materials used for sound absorption?
 
 # Electronics <a name="electronics"></a>
 
 * What factors would you consider when selecting a microphone?
-* Describe the process of converting analog acoustic signals captured by a microphone into digital data.
+* Describe the microphone calibration process.
+* Describe the process of converting analog signals into digital data.
 * What is the role of an Anti-Aliasing filter?
-* Explain the concept of microphone sensitivity and how it is measured.
-* Explain the digital protocols used in microphones, such as I2S (Inter-IC Sound) and PCM (Pulse Code Modulation)?
-* How do you calibrate a microphone?
-* How do you analyze the frequency response of a microphone?
+* What are the typical sampling rates and range of bits commonly used in audio?
+* What digital protocols are used in microphones, such as I2S (Inter-IC Sound) and PCM (Pulse Code Modulation)?
 
 # Signal Processing <a name="signal_processing"></a>
 
@@ -64,74 +50,67 @@ Feel free to dive into any section that interests you or aligns with your study 
 * How can zero-phase filtering be implemented, and what advantages does it offer?
 * What are the various methods for testing the stability of digital filters?
 
-## Feature Extraction <a name="features"></a>
+## Audio Features <a name="features"></a>
 
 * What is energy in the context of speech signals, and how is it computed?
-* Explain the concept of zero-crossing rate.
+* What are the advantages of using the zero-crossing rate (ZCR) compared to the Fast Fourier Transform (FFT)?
 * What methods are commonly used to estimate the pitch of a speech signal?
-* What is linear predictive coding (LPC), and how does it represent speech signals?
-
-## Localization <a name="localization"></a>
-
-* How does the GCC PHAT algorithm differ from cross-correlation?
-* Explain the computational complexity of GCC PHAT-based sound source localization algorithms and any strategies used to mitigate it in real-time systems?
+* What are some common audio features, and how are they extracted?
+* How can we test the similarity between two audio signals?
+* How does the GCC-PHAT algorithm differ from cross-correlation?
 
 ## Audio Transforms <a name="audio_transforms"></a>
 
 * Explain the Short-Time Fourier Transform (STFT) and its implementation.
-* Why is zero padding/ overlap/ windowing used in STFT?
-* What trade-offs should be considered when determining the parameters such as time window, stride, and NFFT in STFT?
-* For what purpose are Mel-frequency cepstral coefficients (MFCC) typically used?
+* Why do we use zero padding in STFT?
+* Why do we use overlap and windowing in STFT?
+* What are the trade-offs when determining the STFT parameters?
+* What do people usually use Mel-frequency cepstral coefficients (MFCC) for in audio processing?
 
 ## Compression <a name="compression"></a>
 
-* What are the typical sampling rates and range of bits commonly used in digital audio?
 * How does the number of quantizer levels affect the dynamic range?
-* Why might audio compression algorithms designed specifically for speech signals not work well for nonspeech audio signals?
-* How does the mu-law transformation differ from linear quantization, and what advantages does it offer?
 * Describe the operation of an adaptive differential pulse code modulation (AD-PCM).
-* How does AMR compression achieve adaptive bit-rate encoding?
+* What is linear predictive coding (LPC), and how does it represent speech signals?
+* How does the mu-law quantization differ from linear quantization, and what advantages does it offer?
 
 ## Noise Reduction <a name="noise_reduction"></a>
 
-* Discuss the principles of adaptive filtering in signal processing and its applications.
-* Describe the process of signal denoising, including spectral subtraction, and spectral gating.
-* What is speech-presence-probability (SPP)?
-* Describe the principles underlying beamforming techniques in acoustic signal processing, including delay and sum, MVDR, and LCMV approaches.
+* How does spectral subtraction reduce noise work?
+* What is the Wiener filtering method?
+* When are wavelet-based denoising techniques effective?
+* What is Speech Presence Probability (SPP), and how is it used in noise reduction?
+* How is adaptive filtering used in noise reduction and echo cancellation?
 
 # Deep Learning <a name="deep_learning"></a>
 
 ## Sound Classification <a name="classification"></a>
 
-* Discuss the challenges associated with sound classification tasks, such as background noise, varying acoustic environments, and the presence of multiple sound sources.
-* How can deep learning be applied to sound classification tasks?
-* What are some evaluation metrics used to assess the performance of classification models?
+* What challenges are faced in sound classification tasks?
+* How can deep learning be applied to sound classification?
+* What metrics assess classification model performance?
 
 ## Speech Enhancement <a name="enhancement"></a>
 
-* What are typical deep network architectures for speech enhancement?
-* How is the phase treated for speech enhancement?
-* What are the objective metrics for speech enhancement evaluation? Could you discuss the difference between PESQ, STOI, and SSNR?
-* What are the loss functions typically used for speech enhancement? What are the cons of using Mean Squared Error (MSE)?
+* What deep network architectures are common for speech enhancement?
+* How is the phase treated in speech enhancement?
+* What loss functions are typical in speech enhancement, and why might Mean Squared Error (MSE) have limitations?
+* Which objective metrics evaluate speech enhancement, and how do they differ?
 
 ## Speaker Recognition <a name="speaker"></a>
 
-* Can you explain the distinctions between speaker diarization, speaker identification, and speaker verification?
-* What are the common deep network architectures used for speaker recognition?
-* What are speaker embeddings?
-* How are i-vectors extracted from speech signals, and what features do they capture?
-* What role does the Universal Background Model (UBM) play in generating i-vectors?
+* Distinguish between speaker diarization, identification, and verification.
+* What are typical deep network architectures for speaker recognition?
+* What are speaker embeddings, and how are they extracted and used?
 * What are x-vectors, and how do they differ from i-vectors?
 
 ## Speech Recognition <a name="recognition"></a>
 
-* Explain some of the techniques used in speech recognition, such as Hidden Markov Models (HMMs) and Deep Learning.
-* How do you preprocess audio data for speech recognition models?
-* How do you handle background noise in speech recognition models?
-* How do you evaluate the accuracy of speech recognition models?
-* How does Whisper use weak supervision?
-* Describe the architecture of Whisper model.
-* How are Whisper models trained, and how do you optimize their performance?
-* What is Wav2Vec2, and how does it differ from Wav2Vec?
-* What are the limitations of using a naive decoding approach for Wav2Vec outputs, and how does Connectionist Temporal Classification (CTC) encoding help address these limitations?
-* Describe the Beam Search algorithm and its role in Wav2Vec models.
+* What methods are used in speech recognition?
+* How is audio data preprocessed for speech recognition?
+* What evaluation methods are used for speech recognition models?
+* How does Whisper employ weak supervision, and what is its architecture?
+* Describe training and optimization for Whisper models.
+* What distinguishes Wav2Vec2 from Wav2Vec?
+* How does CTC encoding address limitations in decoding Wav2Vec outputs?
+* Explain the role of Beam Search in Wav2Vec models.
