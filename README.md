@@ -76,7 +76,7 @@ Feel free to dive into any section that interests you or aligns with your focus.
 
 ## Noise Reduction <a name="noise_reduction"></a>
 
-* How does spectral subtraction reduce noise work?
+* How does spectral subtraction work?
 * What is the Wiener filtering method?
 * When are wavelet-based denoising techniques effective?
 * What is Speech Presence Probability (SPP), and how is it used in noise reduction?
