@@ -8,6 +8,7 @@ Feel free to dive into any section that interests you or aligns with your focus.
 - [Table of contents](#table-of-contents)
 - [Acoustics ](#acoustics-)
   - [Sound ](#sound-)
+  - [Reverberation ](#reverberation-)
 - [Electronics ](#electronics-)
 - [Signal Processing ](#signal-processing-)
   - [Digital Filtering ](#digital-filtering-)
@@ -29,8 +30,13 @@ Feel free to dive into any section that interests you or aligns with your focus.
 * How do you convert sound pressure between dB SPL and pascals (Pa)?
 * Discuss the difference between dB SPL and dB(A) scales. 
 * How do the density and elasticity of a medium affect the speed of sound?
+
+## Reverberation <a name="reverb"></a>
+
+* What is room impulse response (RIR), and how do we measure it?
 * Discuss the concept of reverberation and its implications in room acoustics.
-* What methods are used to measure reverberation (RT60)?
+* What methods are used to measure reverberation? (RT60)
+* How does the GCC-PHAT algorithm differ from cross-correlation?
 
 # Electronics <a name="electronics"></a>
 
@@ -57,7 +63,6 @@ Feel free to dive into any section that interests you or aligns with your focus.
 * What methods are commonly used to estimate the pitch of a speech signal?
 * What are some common audio features, and how are they extracted?
 * How can we test the similarity between two audio signals?
-* How does the GCC-PHAT algorithm differ from cross-correlation?
 
 ## Audio Transforms <a name="audio_transforms"></a>
 
