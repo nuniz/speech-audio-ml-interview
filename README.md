@@ -1,8 +1,11 @@
-# Speech & Audio Algorithms and Machine Learning
+# Speech & Audio Interview Questions
+Feel free to dive into any section that interests you :-)
 
-Feel free to dive into any section that interests you or aligns with your focus.
+![Diagram](images/diagram-v1.png)
 
-# Table of contents
+<details>
+
+<summary>Table of contents</summary>
 
 - [Speech \& Audio Algorithms and Machine Learning](#speech--audio-algorithms-and-machine-learning)
 - [Table of contents](#table-of-contents)
@@ -21,101 +24,102 @@ Feel free to dive into any section that interests you or aligns with your focus.
   - [Speech Enhancement ](#speech-enhancement-)
   - [Speaker Recognition ](#speaker-recognition-)
   - [Speech Recognition ](#speech-recognition-)
+</details>
 
 # Acoustics <a name="acoustics"></a>
 
 ## Sound <a name="sound"></a>
 
-* What is sound intensity, and how do acoustic instruments measure it?
-* How do you convert sound pressure between dB SPL and pascals (Pa)?
-* Discuss the difference between dB SPL and dB(A) scales. 
-* How do the density and elasticity of a medium affect the speed of sound?
+* What is the difference between sound power and sound intensity?
+* How do we convert sound pressure between dB SPL and pascals (Pa)?
+* What’s the difference between dB SPL and dB(A)?
+* How do density and elasticity of a medium affect sound speed?
+* What is the Doppler effect, and how does it work?
 
 ## Reverberation <a name="reverb"></a>
 
-* What is room impulse response (RIR), and how do we measure it?
-* Discuss the concept of reverberation and its implications in room acoustics.
-* What methods are used to measure reverberation? (RT60)
-* How does the GCC-PHAT algorithm differ from cross-correlation?
+* What is room impulse response (RIR), and how is it measured?
+* What are the effects of reverberation in room acoustics?
+* How is reverberation measured (RT60)?
+* How can we simulate reverberation digitally?
+* What methods are used to analyze time delay in audio signals?
 
 # Electronics <a name="electronics"></a>
 
-* What factors would you consider when selecting a microphone?
-* Describe the microphone calibration process.
-* Describe the process of converting analog signals into digital data.
-* What is the role of an Anti-Aliasing filter?
-* What are the typical sampling rates and range of bits commonly used in audio?
-* What digital protocols are used in microphones, such as I2S (Inter-IC Sound) and PCM (Pulse Code Modulation)?
+* What should you consider when choosing a microphone?
+* How do you calibrate a microphone?
+* What is an Anti-Aliasing filter?
+* What are typical sampling rates and bit ranges for audio?
+* What are the common interfaces used in digital audio systems?
 
 # Signal Processing <a name="signal_processing"></a>
 
 ## Digital Filtering <a name="digital_filter"></a>
 
-* What are the key differences between Finite Impulse Response (FIR) and Infinite Impulse Response (IIR) filters?
-* Explain the usage of the filtfilt function.
-* How can zero-phase filtering be implemented, and what advantages does it offer?
-* What are the various methods for testing the stability of digital filters?
+* How do FIR and IIR filters differ?
+* What does the filtfilt function do?
+* How does a preamplifier work in a microphone setup?
+* How is zero-phase filtering done, and what are its benefits?
+* How can we test the stability of digital filters?
 
 ## Audio Features <a name="features"></a>
 
-* What is energy in the context of speech signals, and how is it computed?
-* What are the advantages of using the zero-crossing rate (ZCR) compared to the Fast Fourier Transform (FFT)?
-* What methods are commonly used to estimate the pitch of a speech signal?
-* What are some common audio features, and how are they extracted?
+* What is signal energy, and how do we calculate it?
+* What are the uses of ZCR and FFT in audio analysis?
+* How can we estimate the pitch of speech?
+* What are common audio features, and how do we extract them?
 * How can we test the similarity between two audio signals?
 
 ## Audio Transforms <a name="audio_transforms"></a>
 
-* Explain the Short-Time Fourier Transform (STFT) and its implementation.
-* Why do we use zero padding in STFT?
-* Why do we use overlap and windowing in STFT?
-* What are the trade-offs when determining the STFT parameters?
-* What do people usually use Mel-frequency cepstral coefficients (MFCC) for in audio processing?
+* What is STFT, and how is it done?
+* What are the key considerations when implementing STFT?
+* What is MFCC used for in audio processing?
 
 ## Compression <a name="compression"></a>
 
-* How does the number of quantizer levels affect the dynamic range?
-* Describe the operation of an adaptive differential pulse code modulation (AD-PCM).
-* What is linear predictive coding (LPC), and how does it represent speech signals?
-* How does the mu-law quantization differ from linear quantization, and what advantages does it offer?
+* How does the number of quantizer levels change the dynamic range?
+* How does AD-PCM work?
+* What is LPC, and how does it represent speech?
+* How is mu-law quantization different from linear quantization?
 
 ## Noise Reduction <a name="noise_reduction"></a>
 
 * How does spectral subtraction work?
 * What is the Wiener filtering method?
-* When are wavelet-based denoising techniques effective?
-* What is Speech Presence Probability (SPP), and how is it used in noise reduction?
-* How is adaptive filtering used in noise reduction and echo cancellation?
+* When is wavelet-based denoising useful?
+* What is Speech Presence Probability (SPP), and how is it used?
+* How is adaptive filtering used for noise reduction and echo cancellation?
 
 # Deep Learning <a name="deep_learning"></a>
 
 ## Sound Classification <a name="classification"></a>
 
-* What challenges are faced in sound classification tasks?
-* How can deep learning be applied to sound classification?
-* What metrics assess classification model performance?
+* What are the challenges in sound classification?
+* How is deep learning used in sound classification?
+* What metrics evaluate classification models?
 
 ## Speech Enhancement <a name="enhancement"></a>
 
-* What deep network architectures are common for speech enhancement?
-* How is the phase treated in speech enhancement?
-* What loss functions are typical in speech enhancement, and why might Mean Squared Error (MSE) have limitations?
-* Which objective metrics evaluate speech enhancement, and how do they differ?
+* What deep networks are common for speech enhancement?
+* How is phase handled in speech enhancement?
+* Why might MSE not be the best loss function?
+* What metrics evaluate speech enhancement models?
 
 ## Speaker Recognition <a name="speaker"></a>
 
-* Distinguish between speaker diarization, identification, and verification.
-* What are typical deep network architectures for speaker recognition?
-* What are speaker embeddings, and how are they extracted and used?
-* What are x-vectors, and how do they differ from i-vectors?
+* What’s the difference between diarization, identification, and verification?
+* What networks are used for speaker recognition?
+* What are speaker embeddings, and how are they used?
+* How are x-vectors different from i-vectors?
 
 ## Speech Recognition <a name="recognition"></a>
 
-* What methods are used in speech recognition?
-* How is audio data preprocessed for speech recognition?
-* What evaluation methods are used for speech recognition models?
-* How does Whisper employ weak supervision, and what is its architecture?
-* Describe training and optimization for Whisper models.
-* What distinguishes Wav2Vec2 from Wav2Vec?
-* How does CTC encoding address limitations in decoding Wav2Vec outputs?
-* Explain the role of Beam Search in Wav2Vec models.
+* What methods are used for speech recognition?
+* How is audio prepared for speech recognition?
+* How are speech recognition models evaluated?
+* How does Whisper use weak supervision?
+* What is the Whisper model architecture?
+* What are the key features and differences between Wav2Vec models?
+* How does CTC encoding help Wav2Vec?
+* What’s the role of Beam Search in Wav2Vec?
